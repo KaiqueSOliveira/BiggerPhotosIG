@@ -16,7 +16,7 @@ var c=0
         if(altura && div && border_top && back){   
             if(c==3){
                 var alt_max = document.createAttribute("style")
-                alt_max.value = "max-width:"+(div.offsetWidth*1.18)+"px"
+                alt_max.value = "max-width:"+(div.offsetWidth*1.20)+"px"
                 altura.setAttributeNode(alt_max) 
             }
             altura.setAttribute("width","100%")
@@ -28,7 +28,7 @@ var c=0
         } 
         if(search){
 
-            search.setAttribute("style","max-height:700px ; min-height:700px ; width:600px")
+            search.setAttribute("style","max-height:720px ; min-height:720px ; width:620px")
 
         }
 },1000)
